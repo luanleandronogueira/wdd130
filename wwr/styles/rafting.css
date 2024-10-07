@@ -1,0 +1,49 @@
+:root {
+
+    --primary-color: #05668d;
+    --secondary-color: #427aa1;
+    --accent1-color: #ebf2fa;
+    --accent2-color: #679436;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--accent2-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+
+    height: 40px;
+    width: 40px;
+
+}
+
