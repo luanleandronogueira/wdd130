@@ -45,10 +45,62 @@ a {
     text-decoration: none;
 }
 
-a img {
+/* a img {
 
     height: 40px;
     width: 40px;
 
+} */
+
+header {
+    margin: 1rem auto;
+    display: grid; 
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
+.logo {
+    margin-right: 100px;
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    text-align: right;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex; 
+    list-style: none;
+    gap: 20px; 
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--accent2-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
+/* 
+.social-icons {
+    display: flex;
+
+} */
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
