@@ -38,14 +38,15 @@
 
         <fieldset>
           <legend>Purpose of the message</legend>
-          <input value="general_information" type="radio"/> General Inquiry
-          <input value="reservation_question" type="radio"/> Reservation
-          Question <input value="website_suggestion" type="radio"/> Website
-          Suggestion
+          <input value="general_information" id="porpuse" name="porpuse" type="radio"/> <label for="porpuse">General Inquiry</label>
+          <input value="reservation_question" id="porpuse" name="porpuse" type="radio"/> <label for="porpuse">Reservation</label>
+           <input value="website_suggestion" id="porpuse" name="porpuse" type="radio"/><label for="porpuse">
+            Question Website Suggestion</label>
         </fieldset>
 
         <fieldset>
           <legend>Message</legend>
+          <label for="message">Message</label>
           <textarea name="message" id="message" rows="10" cols="123"></textarea>
           <input type="checkbox" name="information_subscribe" id="information_subscribe"/>
           <label for="information_subscribe">Please subscribe me to the monthly newsletter</label>
