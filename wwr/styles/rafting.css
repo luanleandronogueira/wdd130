@@ -33,7 +33,7 @@ h1 {
     color: var(--primary-color);
 }
 
-h2 {
+h2, h3, h4 {
     color: var(--primary-color);
 }
 
@@ -104,3 +104,55 @@ nav {
     width: 30px;
     height: auto;
 }
+
+fieldset {
+    
+    background-color:  #dddbdb;
+}
+
+legend {
+
+    font-size: 1.2em;
+
+}
+
+button {
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color:  #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #61afd4;
+}
+
+.form-item {
+    display: grid;
+    align-items: left;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.img1 {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    padding: 10px;
+
+}
+
+.div-1 {
+    align-content: center;
+    text-align: center;
+    align-content: space-around;
+
+}
+
