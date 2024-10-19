@@ -159,3 +159,30 @@ button:hover {
 
 }
 
+footer {
+
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px; 
+}
+
+.social-icons {
+    margin-left: 10px; 
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 24px;
+    height: auto;
+    margin-left: 5px;
+}
