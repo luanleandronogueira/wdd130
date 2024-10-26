@@ -1,5 +1,4 @@
 :root {
-
     --primary-color: #05668d;
     --secondary-color: #427aa1;
     --accent1-color: #ebf2fa;
@@ -32,7 +31,6 @@ main, footer {
 }
 
 h1 {
-    
     color: var(--primary-color);
 }
 
@@ -109,12 +107,10 @@ nav {
 }
 
 fieldset {
-    
     background-color:  #dddbdb;
 }
 
 legend {
-
     font-size: 1.2em;
 
 }
